@@ -1,6 +1,6 @@
 # virtual-keyboard
 virtual-keyboard
-### [gh-pages](https://NataliaK96.github.io/virtual-keyboard/)
+### [gh-pages](https://nataliak96.github.io/virtual-keyboard/dist/index.html)
 
 Instruction:
 
