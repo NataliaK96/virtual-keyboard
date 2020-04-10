@@ -1,7 +1,6 @@
 let lang = localStorage.getItem('userLanguage') || 'en';
-
-const enKeyboard = require('./enKeyboard.json');
-const ruKeyboard = require('./ruKeyboard.json');
+import * as enKeyboard from './enKeyboard.json';
+import * as ruKeyboard from './ruKeyboard.json';
 
 const body = document.querySelector('body');
 
@@ -168,7 +167,7 @@ keyboard.addEventListener('mousedown', (event) => {
   if (event.target.id === 'CapsLock') { return; }
   event.target.classList.add('active');
   if (event.target.enBoard.speсification === 'functional') { return; }
-  insertChar(event.target.innerHTML);
+  insertChar(event.target.innerHTML[0]);
 });
 
 keyboard.addEventListener('mouseup', (event) => {
@@ -311,7 +310,7 @@ document.addEventListener('keydown', (event) => {
   }
 
 
-  insertChar(activeKey.innerHTML);
+  insertChar(activeKey.innerHTML[0]);
   textarea.selectionEnd = cursorIndex;
 });
 

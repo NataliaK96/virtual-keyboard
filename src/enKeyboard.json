@@ -167,7 +167,7 @@
           },
       {   "key": "'",
           "upKey": "\"",
-          "code": "IntlBackslash"
+          "code": "Quote"
           },
       {   "key": "&crarr;",
           "code": "Enter",
