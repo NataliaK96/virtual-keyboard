@@ -1,0 +1,269 @@
+[
+  [
+      {   "key": "`",
+          "upKey": "~",
+          "code": "Backquote"
+          },
+      {   "key": "1",
+          "upKey": "!",
+          "code": "Digit1"
+          },
+      {   "key": "2",
+          "upKey": "@",
+          "code": "Digit2"
+          },
+      {   "key": "3",
+          "upKey": "#",
+          "code": "Digit3"
+          },
+      {   "key": "4",
+          "upKey": "$",
+          "code": "Digit4"
+          },
+      {   "key": "5",
+          "upKey": "%",
+          "code": "Digit5"
+          },
+      {   "key": "6",
+          "upKey": "^",
+          "code": "Digit6"
+          },
+      {   "key": "7",
+          "upKey": "&",
+          "code": "Digit7"
+          },
+      {   "key": "8",
+          "upKey": "*",
+          "code": "Digit8"
+          },
+      {   "key": "9",
+          "upKey": "(",
+          "code": "Digit9"
+          },
+      {   "key": "0",
+          "upKey": ")",
+          "code": "Digit0"
+          },
+      {   "key": "-",
+          "upKey": "_",
+          "code": "Minus"
+          },
+      {   "key": "=",
+          "upKey": "+",
+          "code": "Equal"
+          },
+      {   "key": "&larr;",
+          "code": "Backspace",
+          "speсification": "functional"
+          }
+  ],
+  [  
+      {   "key": "Tab",
+          "code": "Tab",
+          "speсification": "functional"
+          },
+      {   "key": "q",
+          "code": "KeyQ",
+          "speсification": "letter"
+          },
+      {   "key": "w",
+          "code": "KeyW",
+          "speсification": "letter"
+          },
+      {   "key": "e",
+          "code": "KeyE",
+          "speсification": "letter"
+          },
+      {   "key": "r",
+          "code": "KeyR",
+          "speсification": "letter"
+          },
+      {   "key": "t",
+          "code": "KeyT",
+          "speсification": "letter"
+          },
+      {   "key": "y",
+          "code": "KeyY",
+          "speсification": "letter"
+          },
+      {   "key": "u",
+          "code": "KeyU",
+          "speсification": "letter"
+          },
+      {   "key": "i",
+          "code": "KeyI",
+          "speсification": "letter"
+          },
+      {   "key": "o",
+          "code": "KeyO",
+          "speсification": "letter"
+          },
+      {   "key": "p",
+          "code": "KeyP",
+          "speсification": "letter"
+          },
+      {   "key": "[",
+          "upKey": "{",
+          "code": "BracketLeft"
+          },
+      {   "key": "]",
+          "upKey": "}",
+          "code": "BracketRight"
+          },
+      {   "key": "\\",
+          "upKey": "|",
+          "code": "Backslash"
+          },
+      {   
+					"key": "Del",
+					"code": "Delete",
+					"speсification": "functional"
+					}
+  ],
+  [
+      {   "key": "Caps",
+          "code": "CapsLock",
+          "speсification": "functional"
+          },
+      {   "key": "a",
+          "code": "KeyA",
+          "speсification": "letter"
+          },
+      {   "key": "s",
+          "code": "KeyS",
+          "speсification": "letter"
+          },
+      {   "key": "d",
+          "code": "KeyD",
+          "speсification": "letter"
+          },
+      {   "key": "f",
+          "code": "KeyF",
+          "speсification": "letter"
+          },
+      {   "key": "g",
+          "code": "KeyG",
+          "speсification": "letter"
+          },
+      {   "key": "h",
+          "code": "KeyH",
+          "speсification": "letter"
+          },
+      {   "key": "j",
+          "code": "KeyJ",
+          "speсification": "letter"
+          },
+      {   "key": "k",
+          "code": "KeyK",
+          "speсification": "letter"
+          },
+      {   "key": "l",
+          "code": "KeyL",
+          "speсification": "letter"
+          },
+      {   "key": ";",
+          "upKey": ":",
+          "code": "Semicolon"
+          },
+      {   "key": "'",
+          "upKey": "\"",
+          "code": "Quote"
+          },
+      {   "key": "&crarr;",
+          "code": "Enter",
+          "speсification": "functional"
+          }
+  ],
+  [
+      {   "key": "Shift",
+          "code": "ShiftLeft",
+          "speсification": "functional"
+          },
+      {   "key": "z",
+          "code": "KeyZ",
+          "speсification": "letter"
+          },
+      {   "key": "x",
+          "code": "KeyX",
+          "speсification": "letter"
+          },
+      {   "key": "c",
+          "code": "KeyC",
+          "speсification": "letter"
+          },
+      {   "key": "v",
+          "code": "KeyV",
+          "speсification": "letter"
+          },
+      {   "key": "b",
+          "code": "KeyB",
+          "speсification": "letter"
+          },
+      {   "key": "n",
+          "code": "KeyN",
+          "speсification": "letter"
+          },
+      {   "key": "m",
+          "code": "KeyM",
+          "speсification": "letter"
+          },
+      {   "key": ",",
+          "upKey": "<",
+          "code": "Comma"
+          },
+      {   "key": ".",
+          "upKey": ">",
+          "code": "Period"
+          },
+      {   "key": "/",
+          "upKey": "?",
+          "code": "Slash"
+          },
+      {   "key": "▲",
+          "code": "ArrowUp",
+          "speсification": "functional"
+          },
+      {   "key": "Shift",
+          "code": "ShiftRight",
+          "speсification": "functional"
+          }
+  ],
+  [
+      {   "key": "Ctrl",
+          "code": "ControlLeft",
+          "speсification": "functional"
+          },
+      {   "key": "EN",
+          "code": "ChangeLang",
+          "speсification": "functional"
+          },
+      {   "key": "Alt",
+          "code": "AltLeft",
+          "speсification": "functional"
+          },
+      {   "key": " ",
+          "upKey": " ",
+          "code": "Space"
+          },
+      {   "key": "Alt",
+          "code": "AltRight",
+          "speсification": "functional"
+          },
+      {   "key": "◄",
+          "code": "ArrowLeft",
+          "speсification": "functional"
+          },
+      {   "key": "▼",
+          "code": "ArrowDown",
+          "speсification": "functional"
+          },
+      {   "key": "►",
+          "code": "ArrowRight",
+          "speсification": "functional"
+          },
+      {   "key": "Ctrl",
+          "code": "ControlRight",
+          "speсification": "functional"
+          }
+  ]
+]
