@@ -15,12 +15,11 @@ module.exports = {
       filename: './index.html'
     }),
     new MiniCssExtractPlugin({
-      // Options similar to the same options in webpackOptions.output
-      // all options are optional
+
       template: './src/style.css',
       filename: 'style.css',
       chunkFilename: '[id].css',
-      ignoreOrder: false, // Enable to remove warnings about conflicting order
+      ignoreOrder: false, 
     }),
   ],
   module: {
@@ -36,42 +35,19 @@ module.exports = {
           },
         ],
       },
-     /* {
-        test: /\.html$/,
-        use: [
-          {
-            loader: 'html-loader',
-            options: {minimize: false}
-          }
-        ]
-      },*/
+     
       {
         test: /\.s[ac]ss$/i,
         use: [
-          /*
-          // fallback to style-loader in development
-          process.env.NODE_ENV !== 'production'
-            ? 'style-loader'
-            : MiniCssExtractPlugin.loader,
-          'css-loader',
-          'sass-loader',*/
+          
           MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader' 
         ],
       },
-      /*{
-        test: /\.json$/,
-        use: [
-          {
-            loader: 'json-loader'
-          }
-        ]
-      }*/
+     
     ]
   },
   
-  /*node: {
-    fs: "empty"
- },*/
+  
   devtool: 'inline-source-map',
     devServer: {
       contentBase: path.join(__dirname,'dist'),
